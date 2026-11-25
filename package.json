@@ -1,0 +1,29 @@
+{
+  "name": "playwright-api-automation",
+  "version": "1.0.0",
+  "description": "API automation testing framework using Playwright, TypeScript and Zod",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:report": "npx playwright show-report",
+    "typecheck": "npx tsc --noEmit"
+  },
+  "keywords": [
+    "playwright",
+    "api-testing",
+    "typescript",
+    "automation-testing",
+    "zod"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "zod": "^4.6.7"
+  }
+}

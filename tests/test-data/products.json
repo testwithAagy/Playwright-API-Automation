@@ -1,0 +1,16 @@
+
+{
+  "newProduct": {
+    "title": "Test Product",
+    "price": 99.99,
+    "category": "Beauty"
+  },
+  "updatedProduct": {
+    "title": "Updated Test Product",
+    "price": 149.99,
+    "category": "Beauty"
+  },
+  "updatedProductPrice": {
+    "price": 199.99
+  }
+}
